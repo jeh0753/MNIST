@@ -1,10 +1,10 @@
 Deep Learning with MNIST Dataset
 ================================
-This is an attempt at gaining high-level accurate predictions of numerical results using the MNIST dataset. It attempts to run the model through the following process:
-1. Through a simple linear model
-2. Through a fully connected, single layer neural network
-3. Through a convolutional neural network (CNN)
-4. Through a CNN with Batch Normalization
+This is a project that gains high-level accurate predictions of numerical results using the MNIST dataset. It runs the model through the following processes:
+1. A simple linear model
+2. A fully connected, single layer neural network
+3. A convolutional neural network (CNN)
+4. A CNN with Batch Normalization
 
 Dropout and Data Augmentation techniques are used to control for overfitting. Basic ensembling is used to achieve the best possible final results.
 
@@ -15,4 +15,4 @@ Installation
 
 Requirements
 ------------
-In order to run this notebook, an NVIDIA GPU is required. An AWS P2 instance can be rented to run the file.
+A GPU is needed to run this notebook - an AWS P2 instance works well.
